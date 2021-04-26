@@ -1,0 +1,701 @@
+/**************************
+global css here
+**************************/
+
+*{
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+/*google font
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+h1,h2,h3,h4,h5,h6,p,span,a,button{
+
+	font-family: 'Open Sans', sans-serif !important;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+ul li{
+
+	list-style: none;
+}
+/****************************
+header section css
+****************************/
+
+header{
+
+	width: 100%;
+
+	background-image: url(../img/bg1.png);
+
+	background-size: cover;
+
+	background-position: center;
+
+	background-repeat: no-repeat;
+
+	height:96vh;
+}
+
+.layer{
+
+	width: 100%;
+
+	height:96vh;
+
+	background-color:rgba(0,0,0,.8);
+}
+
+/*
+navbar css
+*/
+
+.nav-link{
+
+	font-weight: 360;
+
+	font-size: 18px;
+
+	letter-spacing: 1px;
+   
+    margin-right:50px;
+
+     color: #ffffff !important;
+     transition: .2s;
+
+}
+
+.nav-link:hover{
+
+	transform: scale(1.03);
+	transition: .2s ease-in-out;
+	color:#ffb233 !important;
+}
+
+.my-border{
+
+ border-bottom: 2px solid #ffb233;
+}
+
+/*
+ banner css here
+ */
+
+.banner{
+
+	width: 100%;
+	text-align: center;
+}
+
+
+.intro h1, .intro h3{
+
+	color: #ffffff;
+	
+}
+
+.intro h1{
+
+	font-weight: 700;
+	font-size: 50px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	word-spacing: 9px;
+}
+
+.intro h3{
+
+
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing:3px;
+	word-spacing: 4px;
+
+}
+
+/**********************************
+section1/about me section css here
+***********************************/
+
+.sec1{
+
+	width: 100%;
+
+	padding: 130px 0px;
+
+	text-align: center;
+}
+
+.sec1 h1, .sec1 h3, .sec1 p{
+	font-weight: 400;
+}
+
+.sec1 h1{
+
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	color: #000000;
+	
+}
+
+.sec1 h3{
+
+	font-size: 19px;
+	color: #898989;
+}
+
+.sec1 p{
+
+	font-size: 15px;
+    color: #3f3f3f;
+    line-height:30px;
+    padding: 0px 17px;
+}
+
+.sec1 ul li{
+
+	display: inline-block;
+	font-size:26px;
+	margin:60px 40px 50px 40px;
+	text-align: center;
+	width:42px;
+	height:42px;
+	line-height:42px;
+	background-color:#c6c6c5;
+	border-radius: 50%;
+	transition: .2s;
+}
+
+.sec1 ul li:hover{
+
+     background-color: #ffb233;
+     transform: scale(1.07);
+     transition: .2s ease-in-out;
+
+}
+
+.sec1 ul li a{
+
+	color: #ffffff;
+}
+
+.sec1 .btn{
+
+	width: 20%;
+	padding:18px 0px;
+    font-weight: 600;
+    font-size:18px;
+    letter-spacing: 2px;
+    margin-left: 57px !important;
+    color: #51a351;
+    border:2px solid #51a351;
+    text-transform: uppercase;
+    transition: .2s;
+
+}
+
+.sec1 .btn:hover{
+
+	background-color: #51a351;
+	color: #ffffff;
+	transition: .2s ease-in-out;
+}
+
+/*********************
+section2/suggestion section css here
+********************************/
+
+.sec2{
+
+	width: 100%;
+	background-image: url(../img/bg2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 70vh;
+	text-align: center;
+	
+
+}
+
+.sec2 .layer{
+	height: 70vh;
+	text-align: center;
+
+}
+
+.sec2 h2{
+
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing:5px;
+	word-spacing: 4px;
+	color: #ffffff;
+	font-weight:400;
+	padding:90px 0px 70px 0px;
+}
+
+.sec2 ul{
+
+	padding-left: 0rem;
+
+}
+
+.sec2 p{
+
+    font-size:18px;
+    color: #ffffff;
+	font-weight: 400;
+	text-align: center !important;
+	 margin-top:40px;
+
+}
+
+.sec2 ul li a i{
+
+      font-size:35px;
+      text-align: center;
+}
+
+.sec2 ul li a{
+     display: inline-block;
+	width: 80px;
+	height: 80px;
+	line-height:92px;
+	background-color:#ffb233;
+	border-radius: 50%;
+	text-align: center;
+	transition: .3s;
+}
+
+.sec2 ul li a:hover{
+
+	box-shadow: 0px 0px 0px 8px #806539;
+	transition:.3s ease-in-out;
+}
+
+.sec2 a:hover{
+
+	color: #ffffff ;
+}
+
+.skill{
+
+	text-align: center !important;
+}
+
+
+/****************************
+section3/counter section css 
+*****************************/
+.sec3{
+
+    width: 100%;
+    padding:100px 0px;
+    background-color: #f3f4ff;
+    text-align: center;
+
+}
+
+.sec3 h2{
+
+	font-weight: 700;
+	font-size: 45px;
+	color: #444444;
+}
+
+.sec3 p{
+
+	font-weight:350;
+	font-size: 20px;
+	font-style: italic;
+	color: #444444;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************
+
+section4/portfolio section css here
+
+**************************/
+
+.sec4{
+
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.sec4 h1{
+
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing:6px;
+	word-spacing: 5px;
+	color: #333b46;
+	font-weight:400;
+}
+
+.gallery ul li{
+
+	font-size:18px;
+    color: #464646;
+	font-weight: 400;
+	letter-spacing:2px ;
+	display: inline-block;
+	margin: 40px 28px;
+	cursor: pointer;
+
+}
+
+.gallery ul li:hover{
+
+	color: #19bd9a;
+}
+
+
+.g-img{
+
+	display: flex;
+	margin:8px;
+
+}
+
+.active-border{
+
+	border-bottom:2px solid #19bd9a;
+}
+
+.line{
+
+	width:37px;
+	height:3px;
+	background-color: #19bd9a;
+	margin: 20px 0px;
+}
+
+.hover-txt h1,.hover-txt2 h1{
+
+	color: #19bd9a;
+	font-weight:500;
+	font-size: 25px;
+	letter-spacing:6px;
+
+
+
+}
+
+.hover-txt p, .hover-txt2 p{
+
+	color: #b2b3b3;
+	font-weight:400;
+	font-size: 15px;
+	word-spacing:1px;
+	letter-spacing:1px;
+	line-height: 30px;
+	
+}
+.hover-txt a i, .hover-txt2 a i{
+  
+    color: #b2b3b3;
+    font-size:26px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border: 2px solid #b2b3b3;
+	border-radius: 50%;
+	text-align: center;
+}
+.hover-txt a, .hover-txt2 a{
+     
+     display:block;
+     text-align: center;
+}
+
+
+.effect{
+
+	position: relative;
+	overflow: hidden;
+    margin: 8px;
+}
+
+.hover-txt{
+    
+	position: absolute;
+	left:0;
+	right:0;
+	height:0%;
+    bottom:-59px;
+	background-color: rgba(0,0,0,.8);
+	padding:40px 23px 19px 29px;
+	transition: 0.2s ease-in-out !important;
+}
+
+.effect:hover .hover-txt{
+    height: 100%;
+    bottom:0px;
+    transition:0.2s ease-in-out !important;
+}
+
+.g-btn{
+
+	margin: 120px 0px 30px 0px;
+	text-align: center;
+
+}
+
+.g-btn button{
+
+	width:65%;
+	padding: 13px 0px;
+	background-color: #51a351;
+	border:none;
+	border-radius: 6px;
+	font-size:18px;
+    color: #ffffff;
+	font-weight: 400;
+	letter-spacing:2px ;
+	text-transform: uppercase;
+	transition: .2s;
+
+}
+
+.g-btn button:hover{
+
+	box-shadow: 0px 0px 10px 7px #a7d5a7;
+    transition: .2s ease-in-out;
+}
+
+/*************************
+section5/testimonial section css
+**************************/
+.sec5{
+
+	width: 100%;
+	background-image: url(../img/bg4.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:130vh;
+
+}
+
+.sec5 h1{
+
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing:6px;
+	color: #333b46;
+	font-weight:400;
+	margin-top:80px;
+
+}
+
+.sec5 p{
+
+	font-size:17px;
+	line-height:40px;
+	word-spacing:1px;
+	color: #484848;
+	font-weight:400;
+	width:60%;
+	margin: auto;
+}
+
+.owl-carousel .owl-item img{
+
+	display: inline-block !important;
+	width: 10% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************
+footer css
+*********************/
+
+footer{
+
+	width: 100%;
+	background-image: url(../img/bg3.png);
+     background-size:cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 150vh;
+     text-align: center;
+} 
+
+footer h1,h4,a{
+
+	color:#ffffff;
+
+}
+
+.footer-up{
+
+	padding-top: 130px;
+}
+
+.footer-up h1{
+
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing:5px;
+	word-spacing: 4px;
+	margin-bottom:50px;
+}
+
+.footer-up h4{
+
+	font-weight: 400;
+	font-size: 15px; 
+	
+}
+
+.sky h4, .mail h4{
+
+	font-size: 14px;
+	color: #dadada !important;
+}
+
+.sky a, .mail a{
+
+	font-size:18;
+	font-weight: 400;
+}
+
+.bot{
+
+   margin-top:60px;
+}
+
+/*
+footer-bot
+*/
+
+.footer-bot{
+
+	margin-top: 140px;
+}
+
+.inp{
+
+	width: 60% !important;
+
+}
+
+.form-control{
+
+	background-color: transparent!important;
+	border: 1px solid #ffffffff !important;
+	border-radius: 3px;
+	padding: 15px 0px 15px 10px;
+
+}
+
+form input::placeholder, form .message::placeholder{
+
+    font-family: 'Open Sans', sans-serif !important;
+     font-size: 14px;
+     font-weight: 300;
+     color: #ffffff !important;
+
+
+}
+
+.msg .message{
+	width:58%;
+	margin: 30px 0px ;
+	background-color: transparent;
+	border: 1px solid #ffffffff;
+	padding: 15px 0px 15px 10px;
+	height: 30vh;
+}
+
+.msg input{
+
+	width:59%;
+	padding: 15px 0px;
+	background-color: #51a351;
+	border:none;
+	border-radius:6px;
+	font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    transition: .2s;
+    text-transform: uppercase;
+}
+
+.msg input:hover{
+
+    background-color:#51a351c2; 
+	transition: .2s ease-in-out;
+}
+
+.copy{
+
+	 font-family: 'Open Sans', sans-serif !important;
+     font-size: 13px;
+     font-weight: 300;
+     color: #ffffff;
+     margin: 70px 0px;
+}
+
+form input, textarea{
+
+	color: #ffffffff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
